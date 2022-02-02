@@ -15,7 +15,7 @@
         crossorigin="anonymous"></script>
 
     <!-- end -->
-
+    <link rel="stylesheet" href="style.css">
     <title>Code Review 3</title>
 </head>
 
@@ -26,7 +26,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="../pics/logo.png" alt="" width="40" height="30">
+                <img src="pics/logo.png" alt="" width="40" height="30">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,62 +46,25 @@
 
     <!-- end of navbar -->
 
-    <div>wau</div>
-
-    <!-- internal styling -->
-
-    <style>
-        /* carousel style */
-
-        .carousel-item {
-            height: 30rem;
-            background: #777;
-            color: white;
-            position: relative;
-            background-position: bottom;
-            background-size: cover;
-        }
-
-        #carousel {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            padding-bottom: 100px;
-        }
-
-        /* end of carousel style */
-
-
-        /* card style */
-
-        #artists {
-            position: relative;
-            padding-bottom: 50px;
-
-            justify-content: space-between;
-        }
-
-        .col {
-            position: relative;
-            margin-top: 40rem;
-        }
-
-        .card-img-top {
-            width: 100%;
-            height: 20vw;
-            object-fit: cover;
-        }
-
-        /* end of card style */
-    </style>
-
-    <!-- end of internal styling -->
-
-
     <!-- carousel -->
-
-    <div class="carousel-item active" style="background-image:url(../pics/background.jpg)">
+    <div class="background">
+        <img src="pics/background.jpg" width="100%" height="100%">
+        <div class="text">
+            <h1>World Music Festival</h1>
+            <nav>
+                <div class="container-fluid">
+                    <img src="pics/chair.png" width=50 height=40>
+                    <a href="#" class="text-decoration-none">5000 seats</a>
+                    <img src="pics/person.png" width=50 height=40>
+                    <a href="#" class="text-decoration-none">12 Artists</a>
+                    <img src="pics/place.png" width=50 height=40>
+                    <a href="#" class="text-decoration-none">Vienna, Austria</a>
+                </div>
+                <button class="btn btn-success" href="#" type="submit">Book now!</button>
+            </nav>
+        </div>
+    </div>
+    <!-- <div class="carousel-item active" style="background-image: url(pics/background.jpg)"> 
         <div class="container" id="carousel">
             <h1 class="text-center">World Music Festival</h1>
             <nav>
@@ -113,7 +76,7 @@
                 <button class="btn btn-success" href="#" type="submit">Book now!</button>
             </nav>
         </div>
-    </div>
+    </div> -->
 
     <!-- end of carousel -->
 
@@ -125,7 +88,7 @@
             <div class="col">
                 <h2>Stage 1</h2>
                 <div class="card h-100">
-                    <img src="../pics/artist1.jpg" class="card-img-top">
+                    <img src="pics/artist1.jpg" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Lil Baldy</h5>
                         <p class="card-text">This Guy is bald, thats how he became famous.</p>
@@ -137,7 +100,7 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="../pics/artist2.jpg" class="card-img-top">
+                    <img src="pics/artist2.jpg" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Krayzy</h5>
                         <p class="card-text">He calls himself "Krayzy" because he thinks of himself crazy.</p>
@@ -150,7 +113,7 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="../pics/artist3.jpg" class="card-img-top">
+                    <img src="pics/artist3.jpg" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">BikeMike</h5>
                         <p class="card-text">He's always sitting on a bike.</p>
@@ -165,7 +128,7 @@
             <div class="col">
                 <h2>Stage 2</h2>
                 <div class="card h-120">
-                    <img src="../pics/artist4.jpg" class="card-img-top">
+                    <img src="pics/artist4.jpg" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Artees</h5>
                         <p class="card-text">One time he ate food on stage.</p>
@@ -177,7 +140,7 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="../pics/artist5.jpg" class="card-img-top">
+                    <img src="pics/artist5.jpg" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">lil Pedro</h5>
                         <p class="card-text">He is well known in Mexico.</p>
@@ -190,10 +153,10 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="../pics/artist6.jpg" class="card-img-top">
+                    <img src="pics/artist6.jpg" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Kardi C</h5>
-                        <p class="card-text">She is Kardi B younger sister.</p>
+                        <p class="card-text">She is Kardi B's younger sister.</p>
                     </div>
                     <div class="card-footer">
                         <small>Price= unknown</small>
@@ -205,7 +168,7 @@
             <div class="col">
                 <h2>Stage 3</h2>
                 <div class="card h-120">
-                    <img src="../pics/artist7.jpg" class="card-img-top">
+                    <img src="pics/artist7.jpg" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Calkulaterr</h5>
                         <p class="card-text">He counts his money while he perform on stage.</p>
@@ -217,7 +180,7 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="../pics/artist8.jpg" class="card-img-top">
+                    <img src="pics/artist8.jpg" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Big Uzi Horiz</h5>
                         <p class="card-text">lil uzi vert's older brother.</p>
@@ -230,7 +193,7 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="../pics/artist9.jpg" class="card-img-top">
+                    <img src="pics/artist9.jpg" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Trainwrekz</h5>
                         <p class="card-text">He once survived a trainwreck and now raps about it.</p>
@@ -249,7 +212,7 @@
     <!-- format -->
     <div class="container">
         <div class="row row-cols-1 row-cols-md-2 g-3">
-            <img src="../pics/contact.jpg" class="card-img-left h-50">
+            <img src="pics/contact.jpg" class="card-img-left h-50">
             <form>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Email address</label>
