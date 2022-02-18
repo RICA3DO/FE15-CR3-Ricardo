@@ -23,11 +23,7 @@
 
 /* card style */
 
-#artists {
-    padding-bottom: 50px;
 
-    justify-content: space-between;
-}
 
 .col {
     margin-top: 40rem;
@@ -38,6 +34,7 @@
     height: 20vw;
     object-fit: cover;
 }
+
 
 /* end of card style */
 
